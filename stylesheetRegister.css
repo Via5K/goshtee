@@ -90,6 +90,8 @@ button {
     width: 20%;
     background-color: blue;
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .adSpace img {
