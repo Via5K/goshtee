@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goshtee</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+</head>
+
+<body>
+    <div id="header">
+        <h2>Task 1 - ISS</h2>
+        <h1>Login</h1>
+        Sign in to start goshtee
+    </div>
+
+    <div id="middle">
+        <div>
+            <img class="loginPageImage" src="images/image1.PNG" alt="">
+        </div>
+        <div class="loginForm">
+            <form action="./index.html" method="post">
+                <p>EMAIL</p> <br>
+                <input id="userMail" type="email" name="email" placeholder="hello@reallygreatsite.com">
+                <p>PASSWORD</p> <br>
+                <input id="userPass" type="password" name="password" placeholder="******"> <br>
+
+                <button id="login" type="submit" onclick="return verifyLoginDetails()">login</button>
+
+            </form>
+            <button id="register"> I'm New here</button>
+        </div>
+        <div>
+            <img class="loginPageImage" src="images/image2.PNG" alt="">
+        </div>
+    </div>
+
+    <div id="footer">
+
+    </div>
+
+    <script type="text/javascript">
+        document.getElementById("login").onclick = function() {
+            location.href = "./login.html";
+        };
+    </script>
+    <script type="text/javascript">
+        document.getElementById("register").onclick = function() {
+            location.href = "./register.html";
+        };
+    </script>
+</body>
+
+
+</html>

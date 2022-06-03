@@ -1,0 +1,197 @@
+.imageIcon {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.myProfile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img {
+    padding: 2px;
+}
+
+.a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.walletAndLogout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.white {
+    color: white;
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.column1,
+.column2 {
+    margin: 10px;
+    width: 100%;
+}
+
+.socialMedia {
+    height: 200px;
+    width: 300px;
+}
+
+.signup {
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.hereFor {
+    display: flex;
+    border-radius: 28px;
+    justify-content: space-between;
+    width: 30%;
+    background-color: blue;
+    /* text-align: center; */
+}
+
+button {
+    font-size: 1.1rem;
+    margin-top: 30px;
+    text-align: center;
+    width: 30%;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px;
+    height: 40px;
+}
+
+.section2 {
+    display: flex;
+}
+
+.adSpace {
+    width: 20%;
+    background-color: blue;
+    height: 100%;
+}
+
+.adSpace img {
+    width: 80%;
+    height: 100%;
+    padding: 10%;
+}
+
+.videoCall {
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3%;
+}
+
+.macIcons {
+    display: flex;
+    margin-left: 3%;
+}
+
+.red,
+.yellow,
+.blue {
+    border-radius: 100%;
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: lightblue;
+}
+
+.videoFrame1 {
+    padding: 30px 10px 10px 10px;
+    background-color: blue;
+    height: 500px;
+    border-radius: 50px;
+}
+
+.videoFrame2 {
+    margin: 30px 10px 10px 10px;
+    width: 98%;
+    height: 86%;
+    background-color: white;
+    border-radius: 20px;
+    /* display: flex; */
+}
+
+.videoItems {
+    display: flex;
+    width: 98%;
+    height: 76%;
+}
+
+.caller {
+    height: 80%;
+    width: 25%;
+    border: 3px solid blue;
+    margin: 9% 4% 9% 7%;
+}
+
+.takeNotes {
+    margin-top: 9%;
+    height: 60%;
+    width: 20%;
+    border: 3px solid blue;
+}
+
+.takeNotes p {
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.VideoAndAudio {
+    /* background-color: white; */
+    display: flex;
+    justify-content: right;
+    padding-right: 10%;
+    /* height: 5%; */
+    align-items: flex-end;
+}
+
+.VideoAndAudio a {
+    margin-top: 4%;
+}
+
+label {
+    position: relative;
+}
+
+input {
+    padding: 10px;
+    width: 40%;
+    color: blue;
+    border: 2px solid blue;
+}
